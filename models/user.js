@@ -50,7 +50,7 @@ class User {
         return user;
       }      
     }
-    // throw new ExpressError("Invalid username/password");
+    throw new ExpressError("Invalid username/password");
   }
 
   /** Update last_login_at for user */
